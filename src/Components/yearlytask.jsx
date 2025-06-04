@@ -5,7 +5,7 @@ import { CiEdit } from "react-icons/ci";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { MdSaveAlt } from "react-icons/md";
 import { HiMiniArchiveBoxXMark } from "react-icons/hi2";
-import "../Styles/yearly.css"; // ✅ CORRECT
+import "../Styles/yearly.css"; 
 
 
 

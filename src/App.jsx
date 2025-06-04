@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useState } from "react";
 import Layout from "./Components/Layout";
-import Daily from "./Components/Daily";
+import Daily from "./Components/Dailytask";
 import Weekly from "./Components/weekly";
 import Monthly from "./Components/monthly";
-import Yearly from "./Components/yearly"; // ✅ Correct (uppercase 'C' to match folder name)
+import Yearly from "./Components/yearlytask"; 
 
 
-import All from "./Components/All";
+import All from "./Components/Alltask";
 
 function App() {
   const [tasks, setTasks] = useState([
